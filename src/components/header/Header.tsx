@@ -6,7 +6,7 @@ const Header = () => {
     <header className="bg-white py-8 header-top">
       <div className="container mx-auto">
         <div>
-          <h1>Logo</h1>
+          <h1 className="text-black">Header</h1>
         </div>
       </div>
     </header>

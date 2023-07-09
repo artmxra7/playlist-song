@@ -1,9 +1,9 @@
 "use client";
-import { Header, Hero, Sidebar } from "@/components";
+import { Header, Hero, Player, Sidebar } from "@/components";
 import Main from "@/components/main/Main";
 import { useState } from "react";
 export default function Index() {
-  const [view, setView] = useState("search"); // ["search", "library", "playlist", "artist"]
+  const [view, setView] = useState("home"); // ["search", "library", "playlist", "artist"]
   return (
     <>
       <Header />
@@ -11,7 +11,7 @@ export default function Index() {
         <Sidebar view={view} setView={setView} />
         <Main page={view} />
       </main>
-      <div className="sticky bottom-0 bg-red-100 h-24 w-full">Player</div>
+      <Player/>
     </>
   );
 }

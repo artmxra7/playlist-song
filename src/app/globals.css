@@ -29,3 +29,8 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.bg-active {
+  --tw-bg-opacity: 1;
+  background-color: rgba(40, 40, 40, var(--tw-bg-opacity));
+}

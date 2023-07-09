@@ -5,7 +5,7 @@ interface Props {
 }
 const Main: FC<Props> = ({ page }) => {
   return (
-    <div className="text-white m-5">
+    <div className="text-white m-5 flex-1">
       <h1>{page}</h1>
       <p className="text-white">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit
